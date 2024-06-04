@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doggo Classifier</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <style>
+        body {
+            background: url('https://source.unsplash.com/random/1920x1080/?dogs') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .overlay {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h1, p {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen">
+    <div class="overlay text-center">
+        <h1 class="text-4xl font-bold mb-4">Discover Your Doggo's True Identity!</h1>
+        <input type="file" id="upload" accept="image/*" class="mb-4 p-2 border border-gray-300 rounded bg-white">
+        <img id="image" class="max-w-xs mb-4" style="display: none;">
+        <p id="result" class="text-xl font-semibold"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
