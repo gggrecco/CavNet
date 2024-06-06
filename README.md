@@ -5,18 +5,12 @@ Initially I thought I would build a large more complex model to identify differe
 Other than making my wife and I laugh it is utterly useless but at leat showcases my ability to build some simple stuff. 
 
 The model uses a pre-trained InceptionV3 architecture, which has been fine-tuned with over 280 images for this specific task of distinguishing between images of my two dogs, Rosie and Charlie. 
-Data augmentation techniques, such as rotation, width and height shifts, shear, zoom, and horizontal flip, were employed to enhance the robustness of the model during training. The model achieved a test accuracy of over 95% on unseen data. 
+Data augmentation techniques, such as rotation, width and height shifts, shear, zoom, and horizontal flip, were employed to enhance the robustness of the model during training. The model achieved a test accuracy of over 95% on unseen data. here are some metrics regarding training/validation loss and accuracy as well as test performance: <img width="665" alt="image" src="https://github.com/gggrecco/CavNet-CNN-for-Dog-Classification-/assets/72873244/11e490f9-00fc-4f9a-9222-bc63dfd166bc">
+
 Here's a sample output from a test image: <img width="958" alt="image" src="https://github.com/gggrecco/CavNet-CNN-for-Dog-Classification-/assets/72873244/78353f21-19d9-431f-a7c0-75c5d96d9c7e">
 
 ## Setup
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/dog-classifier.git
-   cd dog-classifier
-Set up a virtual environment:
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+clone the repository
 
 Install dependencies:
 pip install -r requirements.txt
