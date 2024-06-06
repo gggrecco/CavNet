@@ -6,7 +6,7 @@ Other than making my wife and I laugh it is utterly useless but at leat showcase
 
 The model uses a pre-trained InceptionV3 architecture, which has been fine-tuned with over 280 images for this specific task of distinguishing between images of my two dogs, Rosie and Charlie. 
 Data augmentation techniques, such as rotation, width and height shifts, shear, zoom, and horizontal flip, were employed to enhance the robustness of the model during training. The model achieved a test accuracy of over 95% on unseen data. 
-Here's a sample output<img width="958" alt="image" src="https://github.com/gggrecco/CavNet-CNN-for-Dog-Classification-/assets/72873244/78353f21-19d9-431f-a7c0-75c5d96d9c7e">
+Here's a sample output from a test image: <img width="958" alt="image" src="https://github.com/gggrecco/CavNet-CNN-for-Dog-Classification-/assets/72873244/78353f21-19d9-431f-a7c0-75c5d96d9c7e">
 
 ## Setup
 
